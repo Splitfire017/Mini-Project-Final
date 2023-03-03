@@ -9,14 +9,16 @@ html, body{
 .navbar{
     padding-right: 20px;
     background-color: rgb(25, 23, 23);
+    position: fixed;
+    width: 100%;
 }
 .navbar-toggler-icon{
-    color: white;
+    color: gray;
 }
 .navbar-brand{
     color: white;
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 5px;
+    padding-left: 5px;
     border-radius: 5px;
     transition: 0.3s ease;
 }
@@ -29,18 +31,14 @@ html, body{
 }
 
 .navbar #navbarnav li{
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 5px;
+    padding-left: 5px;
     border-radius: 5px;
     transition: 0.3s ease;
 }
 .nav-link{
     font-size: 18px;
     color: white;
-}
-.mainlogo{
-    height: 90vh;
-    width: 100%;
 }
 .navbar #navbarnav li:hover{
     background-color: gray;
@@ -53,9 +51,12 @@ html, body{
 .slogan{
     position: absolute;
     top: 10%;
-    transform: translate(-50%-50%);
-   
-    
+    transform: translate(-50%-50%); 
+}
+.mainlogo{
+    height: 90vh;
+    width: 100%;
+    margin-top: 60px;
 }
 .slogan h2{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -66,6 +67,11 @@ html, body{
 }
 
 {Newest Tees start here}
+
+.display-4{
+    font-weight: 600;
+    padding-top: 10px;
+}
 .company{
     padding-top: 50px;
 }
@@ -91,10 +97,19 @@ html, body{
 .card{
     text-align: center;
     line-height: 5px;
+    margin-bottom: 20px;
 }
 {Newest Tees end here}
 
 {Galery starts here}
+
+.ourgallery{
+    padding-top: 60px;
+    margin-bottom: -5px;
+}
+.ourgallery h1{
+    font-weight: 600;
+}
 img{
     max-width: 100%;
 
@@ -118,6 +133,9 @@ img{
 {Gallery ends here}
 
 {company starts here}
+#logo{
+    margin-top: 50px;
+}
 .company{
     padding-top: 50px;
 }
@@ -131,6 +149,12 @@ img{
     max-width: 100%;
    max-height: 100%;
    padding-right: 0px;
+}
+.ourteam h1{
+    margin-top: -30px;
+    margin-bottom: -10px;
+    font-weight: 600;
+
 }
 
 .card{
@@ -147,6 +171,13 @@ img{
 
 
 {carousel starts here}
+
+.product{
+    text-align: center;
+    padding-top: 25px;
+    margin-bottom: -30px;
+    font-weight: 600;
+}
 
 .product-item{
     border: 1px solid rgb(219, 219, 219);
@@ -266,7 +297,7 @@ img{
 
 {Footer  Starts Here}
 .footer{
-    line-height: 5px;
+    line-height: 20px;
     background-color: rgb(25, 23, 23);
     color: white;
 }
